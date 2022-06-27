@@ -19,6 +19,7 @@ function createPokemonCard(pokemon) {
   pEl.textContent = `HP: 45`;
 
   cardLi.append(titleH2, pokeImg);
+  statsUl.append(liEl1, pEl)
 
   let cardsUl = document.querySelector(".cards");
   cardsUl.append(cardLi);
